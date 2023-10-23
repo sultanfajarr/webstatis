@@ -60,7 +60,6 @@ body{
     justify-content: center;
     flex-direction: column;
     background-color: burlywood;
-    background-blend-mode: color;
 }
 
 .menu .pisang button{
