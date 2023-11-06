@@ -19,7 +19,7 @@ body{
 }
 
 .navbar-nav{
-    margin-right: 15px;
+    /* margin-right: 15px; */
 }
 
 .navbar-nav a{
@@ -28,13 +28,18 @@ body{
     color: red;
 }
 
-.navbar .logo img{
-    width: 80px; 
-    color: red;
+.navbar .logo{
+    display: flex;
+    align-items: center;
 }
 
-.navbar .logo a{
-    margin: 15px;
+.navbar .logo img{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+}
+
+.navbar .logo h2{
     margin-left: 2rem;
     font-weight: 700;
     color: white;
@@ -42,6 +47,7 @@ body{
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    
 }
 
 /*navbar*/
@@ -70,9 +76,7 @@ body{
 
 
 .navbar .logo img{
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
+    
 } */
 
 .navbar .navbar-nav a{
@@ -128,7 +132,7 @@ body{
 
     .navbar .navbar-nav{
         position: absolute;
-        top: 100%;
+        top: 9.8%;
         right: -100%;
         background-color: cadetblue;
         width: 30rem;
@@ -194,13 +198,13 @@ body{
     cursor: pointer;
 }
 
-.menu{
+/* .menu{
     min-height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
+} */
 
 .menu .pisang button{
     align-items: center;
