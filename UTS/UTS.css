@@ -18,10 +18,6 @@ body{
     height: 50px;
 }
 
-.navbar-nav{
-    /* margin-right: 15px; */
-}
-
 .navbar-nav a{
     margin: 15px;
     font-size: 22px;
