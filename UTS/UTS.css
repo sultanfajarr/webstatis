@@ -33,9 +33,20 @@ body{
     color: red;
 }
 
+.navbar .logo a{
+    margin: 15px;
+    margin-left: 2rem;
+    font-weight: 700;
+    color: white;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
 /*navbar*/
 
-.navbar{
+/* .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,21 +67,13 @@ body{
     justify-content: left;
 }
 
-.navbar .logo a{
-    margin-left: 2rem;
-    font-weight: 700;
-    color: white;
-    font-size: 1.4rem;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-}
+
 
 .navbar .logo img{
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
-}
+} */
 
 .navbar .navbar-nav a{
     display: inline-block;
@@ -79,10 +82,10 @@ body{
     text-align: center;
     justify-content: center;
     margin: 1rem;
-    color: chartreuse;
+    color: rgb(0, 0, 0);
     font-weight: 600;
     font-size: 0.8rem;
-    background: 2rem grey;
+    background: 2rem yellow;
     border-radius: 20px;
     padding: 8px 10px;
     text-decoration: none;
@@ -184,7 +187,7 @@ body{
     font-size: 20px;
     padding: 10px 15px 10px 15px;
     border-radius: 10px;
-    background-color: crimson;
+    background-color: yellowgreen;
     color: black;
     border: none;
     margin-top: 15px;
@@ -197,7 +200,6 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: burlywood;
 }
 
 .menu .pisang button{
