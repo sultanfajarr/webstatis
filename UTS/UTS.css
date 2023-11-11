@@ -7,6 +7,7 @@
 body{
     background-color: rgb(232, 232, 194);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(https://nusantaranews.co/assets/uploads/2016/09/buah-pisang-memperbaiki-kualitas-otak.jpeg);
 }
 
 .navbar{
@@ -130,7 +131,7 @@ body{
         position: absolute;
         top: 9.8%;
         right: -100%;
-        background-color: cadetblue;
+        background-color: yellowgreen;
         width: 30rem;
         height: 100vh;
     }
@@ -142,7 +143,7 @@ body{
 
     .navbar .navbar-nav a{
         font-size: large;
-        color: brown;
+        color: rgb(9, 8, 8);
         display: block;
         margin: 1.4rem;
     }
@@ -173,6 +174,7 @@ body{
         font-size: 11px;
     }
 }
+/* end media querry */
 
 .home{
     min-height: 100vh;
@@ -183,26 +185,32 @@ body{
     font-size: 30px;
 }
 
-.home .lihat button{
-    font-size: 20px;
-    padding: 10px 15px 10px 15px;
-    border-radius: 10px;
-    background-color: yellowgreen;
-    color: black;
-    border: none;
-    margin-top: 15px;
-    cursor: pointer;
+.home .lihat{
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 0.8rem;
+    background: 2rem yellow;
+    border-radius: 20px;
+    padding: 15px 18px;
+    text-decoration: none;
 }
 
-/* .menu{
+.daftar{
     min-height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-} */
+}
 
-.menu .pisang button{
+
+.daftar .pisang button{
     align-items: center;
     display: flex;
     font-size: 20px;
@@ -215,7 +223,7 @@ body{
     cursor: pointer;
 }
 
-.menu .tahu button{
+.daftar .tahu button{
     align-items: center;
     display: flex;
     font-size: 20px;
@@ -228,7 +236,7 @@ body{
     cursor: pointer;
 }
 
-.menu .esbuah button{
+.daftar .esbuah button{
     align-items: center;
     display: flex;
     font-size: 20px;
