@@ -7,7 +7,9 @@
 body{
     background-color: rgb(232, 232, 194);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url(https://nusantaranews.co/assets/uploads/2016/09/buah-pisang-memperbaiki-kualitas-otak.jpeg);
+    background-image: url(https://media.istockphoto.com/id/1312267010/id/foto/latar-belakang-banyak-potongan-pisang-pemandangan-di-atas-kepala-fotografi-makanan-studio.jpg?s=612x612&w=0&k=20&c=fHEuQ6u9ufYWAJbQ1G47TDA-3TEc6Wy65rzpIzlWNi4=);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar{
@@ -129,7 +131,7 @@ body{
 
     .navbar .navbar-nav{
         position: absolute;
-        top: 9.8%;
+        top: 9%;
         right: -100%;
         background-color: yellowgreen;
         width: 30rem;
