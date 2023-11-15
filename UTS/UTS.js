@@ -1,5 +1,3 @@
-alert('Selamat Datang')
-
 const menu = document.querySelector('.navbar #menu');
 const nav = document.querySelector('.navbar .navbar-nav');
 
