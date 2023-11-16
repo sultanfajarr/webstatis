@@ -77,7 +77,7 @@ body{
     margin: 1rem;
     color: rgb(0, 0, 0);
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 1rem;
     background: 2rem yellow;
     border-radius: 20px;
     padding: 8px 10px;
@@ -87,7 +87,7 @@ body{
 
 .navbar .navbar-nav a:hover{
     color: rgb(8, 2, 27);
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 .navbar .navbar-nav a::after{
@@ -228,7 +228,7 @@ body{
 }
 
 .about .desc h2{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
     text-align: left;
     /* padding-left: 20px; */
