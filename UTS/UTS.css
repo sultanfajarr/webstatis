@@ -33,7 +33,7 @@ body{
     color: red;
 }
 
-.navbar .jam{
+.navbar .navbar-nav iframe{
     display: none;
 }
 
@@ -120,17 +120,13 @@ body{
         padding: 1.8rem 4%;
     }
 
-    /* .navbar .jam{
-        display: inline-block;
-    } */
-
     .navbar .navbar-nav{
         position: absolute;
         top: 9%;
         right: -100%;
         background-color: yellowgreen;
         width: 30rem;
-        height: 100vh;
+        height: 220vh;
     }
 
     .navbar .navbar-nav.active{
@@ -157,6 +153,10 @@ body{
         border-bottom: 0.1rem solid brown;
         transform: scaleX(0);
         transition: 0.2s linear;
+    }
+
+    .navbar .navbar-nav iframe{
+        display: flex;
     }
 
     .footer{
