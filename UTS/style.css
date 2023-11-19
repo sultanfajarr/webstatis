@@ -241,56 +241,13 @@ body{
     width: 580px;
 }
 
-.daftar{
-    min-height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.daftar .pisang button{
-    align-items: center;
-    display: flex;
-    font-size: 20px;
-    padding: 8px 13px 8px 13px;
-    border-radius: 10px;
-    background-color: black;
-    color: yellow;
-    border: none;
-    margin-top: 15px;
-    cursor: pointer;
-}
-
-.daftar .tahu button{
-    align-items: center;
-    display: flex;
-    font-size: 20px;
-    padding: 8px 13px 8px 13px;
-    border-radius: 10px;
-    background-color: black;
-    color: yellow;
-    border: none;
-    margin-top: 15px;
-    cursor: pointer;
-}
-
-.daftar .esbuah button{
-    align-items: center;
-    display: flex;
-    font-size: 20px;
-    padding: 8px 13px 8px 13px;
-    border-radius: 10px;
-    background-color: black;
-    color: yellow;
-    border: none;
-    margin-top: 15px;
-    cursor: pointer;
+#daftarmenu{
+    height: 80vh;
 }
 
 .tabel{
-    padding-left: 690px;
-    padding-top: 20px;
+    padding-left: 40%;
+    padding-top: 10%;
     padding-bottom: 10px;
     font-size: medium;
 }
@@ -360,13 +317,17 @@ table {
 }
 
 .daftar{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     display: flex;
     flex-direction: row;
 }
-
 .head-daftar{
     font-size: 60px;
-    padding-top: 2%;
+    padding-top: 4%;
     padding-left: 40%;
     padding-bottom: 0;
     font-family: 'DM Serif Display', serif;
