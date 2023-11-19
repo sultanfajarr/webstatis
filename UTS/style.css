@@ -182,22 +182,12 @@ body{
     flex-direction: column;
     font-size: 80px;
     font-weight: 500;
-    background-image: url(https://e0.pxfuel.com/wallpapers/625/968/desktop-wallpaper-banana-pattern-bananas-fruit-pattern-banana-yellow.jpg);
+    background-image: url(https://media.istockphoto.com/id/1218758991/id/foto/pola-pisang-musim-panas-yang-mulus-terisolasi-di-atas-putih.jpg?s=612x612&w=0&k=20&c=xGNZrxKG3RYXic3u4C3YPM5CZ6BmGZIfDXSwAELJSzg=);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     font-family: 'Fjalla One', sans-serif;
 }
-
-/* .home::after{
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    bottom: 0;
-    background: linear-gradient(0deg, rgb(232, 232, 194, 1)3%, rgba(255, 255, 255, 0)30%);
-} */
 
 .home .lihat{
     display: inline-block;
@@ -227,6 +217,10 @@ body{
     color: black;
 }
 
+.head{
+    font-size: 60px;
+}
+
 .about .desc h2{
     font-size: 40px;
     font-weight: 500;
@@ -246,6 +240,7 @@ body{
 .about-image img{
     width: 580px;
 }
+
 .daftar{
     min-height: 50vh;
     display: flex;
@@ -253,7 +248,6 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-
 
 .daftar .pisang button{
     align-items: center;
@@ -305,31 +299,32 @@ table {
     font-family: Arial, Helvetica, sans-serif;
     color: #666;
     text-shadow: 1px 1px 0px #fff;
-    background: #eaebec;
+    background: black;
     border: #ccc 1px solid;
-  }
+}
    
   table th {
     padding: 15px 35px;
     border-left:1px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
-    background: #ededed;
-  }
+    background: yellowgreen;
+    color: black;
+}
    
   table th:first-child{  
     border-left:none;  
-  }
+}
    
   table tr {
     text-align: center;
     padding-left: 20px;
-  }
+}
    
   table td:first-child {
     text-align: left;
     padding-left: 20px;
     border-left: 0;
-  }
+}
    
   table td {
     padding: 15px 35px;
@@ -339,31 +334,52 @@ table {
     background: #fafafa;
     background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
     background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
-  }
+    color: black;
+}
    
   table tr:last-child td {
     border-bottom: 0;
-  }
+}
    
   table tr:last-child td:first-child {
     -moz-border-radius-bottomleft: 3px;
     -webkit-border-bottom-left-radius: 3px;
     border-bottom-left-radius: 3px;
-  }
+}
    
   table tr:last-child td:last-child {
     -moz-border-radius-bottomright: 3px;
     -webkit-border-bottom-right-radius: 3px;
     border-bottom-right-radius: 3px;
-  }
+}
    
   table tr:hover td {
     background: #f2f2f2;
     background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
     background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
-  }
-.bisa{
-    padding-left: 25px;
+}
+
+.daftar{
+    display: flex;
+    flex-direction: row;
+}
+
+.head-daftar{
+    font-size: 60px;
+    padding-top: 2%;
+    padding-left: 40%;
+    padding-bottom: 0;
+    font-family: 'DM Serif Display', serif;
+}
+
+.daftar .gojek img{
+    width: 20%;
+    margin-left: 50%;
+}
+
+.daftar .grab img{
+    width: 40%;
+    margin-left: -50%;
 }
 
 .kontak{
